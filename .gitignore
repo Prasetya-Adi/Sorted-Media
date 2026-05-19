@@ -1,0 +1,33 @@
+# ── ExifTool binary (download sendiri, jangan di-commit) ──
+exiftool-*/
+exiftool.exe
+
+# ── Output folder ──
+sorted/
+
+# ── Python cache ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Virtual environment ──
+.venv/
+venv/
+env/
+
+# ── Build / PyInstaller output ──
+build/
+dist/
+*.spec
+*.exe
+
+# ── OS junk ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ──
+.vscode/
+.idea/
+*.swp
